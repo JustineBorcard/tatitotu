@@ -1,0 +1,27 @@
+.l-main {
+  background: rgb(248, 210, 112);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 210, 112, 1) 30%,
+    rgba(244, 244, 244, 1) 30%,
+    rgba(244, 244, 244, 1) 70%,
+    rgba(248, 210, 112, 1) 70%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.l-header {
+  background: #f4f4f4;
+  height: 138px;
+}
+
+.l-card {
+  display: flex;
+  width: 427px;
+  height: 361px;
+  padding: 60px 40px 59px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  flex-shrink: 0;
+}

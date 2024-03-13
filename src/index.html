@@ -6,19 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
-  <body>
+  <body class="l-main">
+    <header class="l-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <h1>
+              <img class="logo"
+              src="../img/logo.png" alt="Logo tatitotu" />
+            </h1>
+          </div>
+          <div class="col-3">
+            <p class="subtitle">
+              Défis de conjuguaison
+            </p>
+          </div>
+          <div class="col-2 offset-4">
+            <a class="help" href="help"></a>aide
+          </div>
+        </div>
+    </header>
     <div class="container">
-      <div class="row">
-        <div class="col-3">logo</div>
-        <div class="col-3">sous-titre</div>
-        <div class="col-2 offset-4">sous-titre</div>
-      </div>
       <div class="row">
         <div class="col-8">sélection</div>
         <div class="col-3 offset-1">bouton</div>
       </div>
       <div class="row">
-        <div class="col-4">div</div>
+        <div class="col-4">
+          <div class="card"> </div>
+        </div>
         <div class="col-8">div</div>
       </div>
       <div class="row">
@@ -29,6 +45,7 @@
         <div class="col-12">footer</div>
       </div>
     </div>
+  </div>
 
     <script src="js/main.js" type="module"></script>
   </body>
