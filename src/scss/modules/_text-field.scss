@@ -1,0 +1,19 @@
+.text-field {
+  display: flex;
+  height: 45px;
+  padding: 10px 46px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  border-radius: 74px;
+  border: 2px solid var(--White, #fff);
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
