@@ -9,3 +9,9 @@
   background: var(--vert, #5fa378);
   box-shadow: 9px 12px 14px 0px rgba(0, 0, 0, 0.25);
 }
+
+.card.orange {
+  background: var(--orange, #ff864b);
+
+  align-self: stretch;
+}
