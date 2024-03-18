@@ -16,4 +16,9 @@
   font-weight: 300;
   line-height: normal;
   letter-spacing: -0.4px;
+  background: none;
+}
+
+.text-field::placeholder {
+  color: #fff;
 }

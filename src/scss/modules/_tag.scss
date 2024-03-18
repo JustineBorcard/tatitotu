@@ -17,3 +17,9 @@
   line-height: normal;
   letter-spacing: -0.4px;
 }
+
+.tag-list {
+  display: flex;
+  gap: 25px 35px;
+  flex-wrap: wrap;
+}
