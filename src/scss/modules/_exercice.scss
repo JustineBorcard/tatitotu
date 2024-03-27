@@ -1,0 +1,18 @@
+.exercice {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  display: flex;
+  padding: 18px 24px;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 74px;
+  border: 2px solid var(--vert, #5fa378);
+  background: none;
+}
