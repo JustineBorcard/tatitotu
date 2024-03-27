@@ -25,3 +25,9 @@
   gap: 35px;
   flex-shrink: 0;
 }
+
+.l-vertical-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
