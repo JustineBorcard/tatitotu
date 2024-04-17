@@ -23,3 +23,20 @@
   gap: 25px 35px;
   flex-wrap: wrap;
 }
+
+.tag-switch-wrapper {
+  display: inline-block;
+  height: 21px;
+  width: 37px;
+  padding: 2 2 2 18;
+  border-radius: 10px;
+  background: none;
+  border: solid;
+}
+
+.tag-switch-inner {
+  width: 14px;
+  height: 14px;
+  border-radius: 8px;
+  background: #e54b00;
+}
