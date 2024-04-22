@@ -29,7 +29,7 @@
   display: inline-block;
   height: 21px;
   width: 37px;
-  padding: 2 2 2 18;
+  padding: 2 2 2 2px;
   border-radius: 10px;
   background: none;
   border: solid;
@@ -39,10 +39,19 @@
   width: 14px;
   height: 14px;
   border-radius: 8px;
-  background: #e54b00;
+  background: #fff;
 }
 
 .tag-cross {
   position: absolute;
   right: 20px;
+}
+
+input:checked + .tag-switch-wrapper .tag-switch-inner {
+  margin-left: 16px;
+  background: #e54b00;
+}
+
+.tag-switch input {
+  display: none;
 }
